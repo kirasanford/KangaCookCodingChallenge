@@ -1,13 +1,12 @@
 h2 {
-  font-size: 2.5em;
-  color: #333;
-  margin-bottom: 20px;
-  text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .item-list {
     padding: 20px;
-    background-color: #f9f9f9;
 }
 
 .error-message {
@@ -70,10 +69,79 @@ h2 {
 }
 
 .card-button {
-    color: #fff;
     background-color: #dc3545;
 }
 
-.card-button:hover {
-  background-color: #c82333;
+/* Specific Styles for Add and Edit Pages */
+.card-large {
+    width: 600px;
+    min-height: 500px;
+    padding: 30px;
+}
+
+.card-large h3 {
+    font-size: 2em;
+}
+
+.card-large p {
+    font-size: 1.2em;
+}
+
+.card-large .card-actions {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-large .card-button {
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+.card-large form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-large input[type="text"],
+.card-large textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.card-large textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.card-large label {
+    font-size: 1.2em;
+}
+
+.card-large button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    background-color: rgb(255, 77, 0);
+    transition: background-color 0.3s;
+}
+
+.card-large .delete-button {
+      background-color: rgb(198,93,178);
+}
+
+.card-large button:hover {
+    color: #fff;
+}
+
+.error-message {
+    color: red;
+    font-size: 1em;
+    margin-bottom: 15px;
 }
