@@ -22,7 +22,7 @@ const AddItem = () => {
 
   return (
     <div>
-      <h2>Add New Item</h2>
+      <h2>Add New Recipe</h2>
       {error && <div style={{ color: 'red' }}>{error}</div>}
       <form onSubmit={handleSubmit}>
         <div>

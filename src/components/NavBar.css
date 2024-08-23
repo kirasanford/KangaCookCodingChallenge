@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
+  background-color: rgb(107 114 128);
   padding: 50px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   z-index: 1000;
@@ -22,7 +22,7 @@
 }
 
 .navbar-link {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-size: 24px;
 }
